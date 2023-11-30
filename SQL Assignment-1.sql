@@ -88,7 +88,7 @@ select first_name from customer where first_name like "_r%";
 
 
 -- Question19- Find all customers whose first name starts with "a" and are at least 5 characters in length
-select first_name from customer where first_name like "a%" and length(first_name) > 5;
+select first_name from customer where first_name like "a%" and length(first_name) >= 5;
 
 -- Question20- Find all customers whose first name starts with "a" and ends with "o".
 select first_name from customer where first_name like "a%o";
